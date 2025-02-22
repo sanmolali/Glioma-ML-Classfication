@@ -17,6 +17,10 @@ This project follows two distinct approaches for biomarker classification:
   - **T1wCE**
   - **T2w**
 
+#### Modalities:
+
+![Screenshot from 2025-02-23 04-38-46](https://github.com/user-attachments/assets/311c0315-49fe-44a5-86da-91103e104c63)
+
 ### 2. Pyradiomics-Based Classification
 - Leverages radiomic features extracted using the `gdc-client` tool.
 - **Directory Breakdown:**
@@ -49,10 +53,80 @@ This project follows two distinct approaches for biomarker classification:
 - Handles missing values and normalizes data before transposing it for model input.
 - Ensures class balance by analyzing label distributions.
 
+### Data Visualizations
+`PCA of Scaled Gene Expression Data on Unselected Features`
+
+
+
+![image](https://github.com/user-attachments/assets/f153cf21-146d-45fb-b3eb-c5cd919e57da)
+
+
+
+`UMAP of Gene Expression Data with Unselected Features`
+
+
+
+![image](https://github.com/user-attachments/assets/1b196890-3f18-43e2-9b1a-53e06f9e3e24)
+
+
+
+`PCA of Scaled Gene Expression Data with Selected Features`
+
+
+
+![image](https://github.com/user-attachments/assets/912a6c7d-3e7b-455f-85eb-337ba1c0177a)
+
+
+
+UMAP of Gene Expression Data with Selected Features
+
+
+
+![image](https://github.com/user-attachments/assets/253571ff-c0a6-4c01-a086-19369e93d6ac)
+
+
 ### Machine Learning Models
 - **Logistic Regression**: Used as a baseline for comparison.
+
+   ` Confusion Matrix Results:`
+
+
+    ![image](https://github.com/user-attachments/assets/5c2df6d2-d3f2-448d-a17f-8f6b47f3a8c5)
+
+
 - **Random Forest**: Trained to classify glioma subtypes and analyze feature importance.
+    Feature Importance Chart of Random Forest
+
+
+
+    ![image](https://github.com/user-attachments/assets/afd91275-47a4-40e5-bd74-e07607e29198)
+
+
+   `Confusion Matrix Results:`
+
+
+
+  ![image](https://github.com/user-attachments/assets/a837c282-3b60-496a-92f2-b03f38471672)
+
+  
 - **XGBoost Classifier**: Outperforms Random Forest slightly but struggles to distinguish between "Oligodendroglioma" and "Astrocytoma."
+   Feature Importance Chart of XGBoost
+
+
+
+   ![image](https://github.com/user-attachments/assets/779e8e17-44d6-4cee-a753-02203eb4d684)
+
+
+
+
+  `Confusion Matrix Results:`
+
+
+
+  ![image](https://github.com/user-attachments/assets/66ae91af-a55d-4510-8da5-72639db25e14)
+
+
+
 - Model evaluation includes:
   - 5-fold cross-validation
   - Metrics: F1-score, Accuracy, AUC-ROC, and Confusion Matrices
@@ -100,4 +174,10 @@ The `model_evaluation.ipynb` notebook provides performance metrics for classific
 
 ### 3. Survival Analysis
 The `survival_analysis.ipynb` notebook helps investigate the relationship between biomarkers and patient survival outcomes.
+
+
+# Front End for Classification using Radiomics features
+
+![image](https://github.com/user-attachments/assets/1bb62590-e7fd-42a6-adf2-109d988b0ffa)
+
 
