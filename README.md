@@ -14,12 +14,14 @@ This project follows two distinct approaches for biomarker identification:
 
 ### 1. Glioblastoma genetic profile using CNN:
 - Utilizes EfficientNet, a pre-trained CNN model, to identify biomarkers using medical images.
-- glioblastoma MRI :
+- 
+#### glioblastoma MRI :
      ![glioblastoma](https://github.com/user-attachments/assets/335f986e-a559-43b9-be9a-d17d936853d6)
 
   
   ### CNN architecture:
-    [MRI-Based Radiogenomic Classification.docx](https://github.com/user-attachments/files/18947214/MRI-Based.Radiogenomic.Classification.docx)
+    
+  ![EfficientNet-Architecture](https://github.com/user-attachments/assets/1643fa61-a89b-421a-b1a9-c9c48dda1c55)
 
 - Image modalities considered:
   - **Flair**
