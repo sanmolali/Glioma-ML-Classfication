@@ -1,9 +1,12 @@
 # Project Overview
 
-This project aims to classify glioma subtypes using data from The Cancer Genome Atlas (TCGA). The primary objectives include:
+This project is divided into 2 parts
+  - 1st part aims to classify glioma subtypes using data from The Cancer Genome Atlas (TCGA). The primary objectives include:
 - Developing machine learning models to predict glioma subtypes based on metadata and processed gene expression data.
 - Conducting survival analysis to assess the impact of biomarkers on patient survival.
-- Implementing a CNN-based classification model to identify key biomarkers of glioblastoma. 
+- The 2nd part of the project aims to predict the genetic profile of the most severe form of brain cancer, i.e. glioblastoma.
+    - for this purpose, data is sourced from RSNA and MICCAI, (link:  RSNA-MICCAI Brain Tumor Radiogenomic Classification.) the focus is to detect the presence of a key biomarker MGMT promoter methylation.
+  - Implementing a CNN-based classification model to identify key biomarkers of glioblastoma. 
 
 # Directory Structure
 
