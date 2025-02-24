@@ -1,9 +1,9 @@
 # Project Overview
 
 This project aims to classify glioma subtypes using data from The Cancer Genome Atlas (TCGA). The primary objectives include:
-- Developing machine learning models to predict glioma classes based on metadata and processed gene expression data.
+- Developing machine learning models to predict glioma subtypes based on metadata and processed gene expression data.
 - Conducting survival analysis to assess the impact of biomarkers on patient survival.
-- Implementing a CNN-based classification model to identify key biomarkers.
+- Implementing a CNN-based classification model to identify key biomarkers of glioblastoma. 
 
 # Directory Structure
 
