@@ -10,10 +10,17 @@ This project is divided into 2 parts
 
 # Directory Structure
 
-This project follows two distinct approaches for biomarker classification:
+This project follows two distinct approaches for biomarker identification:
 
-### 1. Grading Classification Using CNN
-- Utilizes EfficientNet, a pre-trained CNN model, to classify biomarkers using medical images.
+### 1. Glioblastoma genetic profile using CNN:
+- Utilizes EfficientNet, a pre-trained CNN model, to identify biomarkers using medical images.
+- glioblastoma MRI :
+     ![glioblastoma](https://github.com/user-attachments/assets/335f986e-a559-43b9-be9a-d17d936853d6)
+
+  
+  ### CNN architecture:
+    [MRI-Based Radiogenomic Classification.docx](https://github.com/user-attachments/files/18947214/MRI-Based.Radiogenomic.Classification.docx)
+
 - Image modalities considered:
   - **Flair**
   - **T1w**
@@ -24,7 +31,7 @@ This project follows two distinct approaches for biomarker classification:
 
 ![Screenshot from 2025-02-23 04-38-46](https://github.com/user-attachments/assets/311c0315-49fe-44a5-86da-91103e104c63)
 
-### 2. Pyradiomics-Based Classification
+### 2. Pyradiomics-Based subtypes classification of glioma:
 - Leverages radiomic features extracted using the `gdc-client` tool.
 - **Directory Breakdown:**
   - `Pyradimics-classification/scr/`: Contains scripts and Jupyter notebooks for preprocessing, model training, evaluation, and deployment.
