@@ -16,7 +16,7 @@ This project follows two distinct approaches for biomarker identification:
 - Utilizes EfficientNet, a pre-trained CNN model, to identify biomarkers using medical images.
 - 
 #### glioblastoma MRI :
-     ![glioblastoma](https://github.com/user-attachments/assets/335f986e-a559-43b9-be9a-d17d936853d6)
+  ![glioblastoma](https://github.com/user-attachments/assets/335f986e-a559-43b9-be9a-d17d936853d6)
 
   
   ### CNN architecture:
